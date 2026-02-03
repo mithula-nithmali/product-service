@@ -4,3 +4,8 @@ spring:
       uri: mongodb://localhost:27017/product-service
   application:
     name: product-service
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
